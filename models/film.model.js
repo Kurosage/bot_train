@@ -1,5 +1,5 @@
 const mongoose = require('mongoose')
-const = Schema = mongoose.Schema
+const Schema = mongoose.Schema
 
 const FilmSchema = new Schema({
 	name: {
@@ -21,7 +21,7 @@ const FilmSchema = new Schema({
 		type: Number
 	},
 	length: {
-		type: Number
+		type: String
 	},
 	country: {
 		type: String
